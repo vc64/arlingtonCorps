@@ -1,0 +1,93 @@
+body {
+  height: 89%;
+}
+
+main {
+  height: unset;
+  background-image: linear-gradient(to right, #EFEFEF, #FFFFFF);
+}
+
+.about-title {
+  text-align: center;
+  width: 100%;
+  height: 15vw;
+  position: relative;
+
+  background-image: url("../images/aboutback.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+  margin-top: 68.365px;
+  z-index: 1;
+}
+
+.center-title {
+  background-color: rgb(255, 255, 255, 0.45);
+}
+
+.details p {
+  font-family: 'Hind Madurai', sans-serif;
+}
+
+
+.about-details {
+  width: 100%;
+  height: 90vw;
+}
+
+.about-details-back {
+  width: 100%;
+  height: 55vw;
+
+  margin-top: -35vw;
+
+  transform: skewY(-35deg);
+
+  background-color: #880606;
+  background-image: linear-gradient(to right,#550202, #880606);
+
+  font-family: 'Hind Madurai', sans-serif;
+  z-index: 0;
+
+  overflow: hidden;
+}
+
+.about-details-title {
+  color: black;
+  z-index: 1;
+  position: relative;
+
+  margin-top: -10vw;
+  margin-left: 5vw;
+
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.about-details p {
+  margin-right: 3vw;
+  margin-top: 2vw;
+  margin-left: 54vw;
+
+  z-index: 1;
+  
+  position: relative;
+  
+  text-align: right;
+}
+
+
+.footer {
+  margin-top: -5vw;
+
+  position: absolute;
+
+  z-index: 1;
+
+  width: 100%;
+  height: 20%;
+
+  background-color: black;
+}
+
